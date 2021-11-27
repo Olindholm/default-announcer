@@ -12,5 +12,100 @@
     updatecheckurl=""
     updatedownloadurl=""
 >
-    <!-- Does nothing -->
+    <!-- Replace all announcers with default -->
+	<editfile name="base.upgrades">
+        <!-- Flamboyant -->
+        <findall><![CDATA[<announcervoice name="Flamboyant" voiceset="flamboyant" arcadetext="unicorn" />]]></findall>
+        <replace><![CDATA[<announcervoice name="Flamboyant" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- Female -->
+        <findall><![CDATA[<announcervoice name="Female" voiceset="female" arcadetext="arcade_text" />]]></findall>
+        <replace><![CDATA[<announcervoice name="Female" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- Badass -->
+        <findall><![CDATA[<announcervoice name="Badass" voiceset="ballsofsteel" arcadetext="balls" />]]></findall>
+        <replace><![CDATA[<announcervoice name="Badass" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- British -->
+        <findall><![CDATA[<announcervoice name="British" voiceset="english" arcadetext="english" />]]></findall>
+        <replace><![CDATA[<announcervoice name="British" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- BreakyCPK -->
+        <findall><![CDATA[<announcervoice name="BreakyCPK" voiceset="breakycpk" arcadetext="arcade_text" />]]></findall>
+        <replace><![CDATA[<announcervoice name="BreakyCPK" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- Pimp -->
+        <findall><![CDATA[<announcervoice name="Pimp" voiceset="pimp" arcadetext="pimp" />]]></findall>
+        <replace><![CDATA[<announcervoice name="Pimp" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- Seductive -->
+        <findall><![CDATA[<announcervoice name="Seductive" voiceset="seductive" arcadetext="seductive" />]]></findall>
+        <replace><![CDATA[<announcervoice name="Seductive" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- Thai -->
+        <findall><![CDATA[<announcervoice name="Thai" voiceset="thai" arcadetext="thai" />]]></findall>
+        <replace><![CDATA[<announcervoice name="Thai" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- Thai English -->
+        <findall><![CDATA[<announcervoice name="Thai English" voiceset="thaienglish" arcadetext="thaienglish" />]]></findall>
+        <replace><![CDATA[<announcervoice name="Thai English" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- Pirate Announcer -->
+        <findall><![CDATA[<announcervoice name="Pirate Announcer" voiceset="pirate" arcadetext="pirate" />]]></findall>
+        <replace><![CDATA[<announcervoice name="Pirate Announcer" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- Samuel L Jackson -->
+        <findall><![CDATA[<announcervoice name="Samuel L Jackson" voiceset="bamf" arcadetext="bamf" />]]></findall>
+        <replace><![CDATA[<announcervoice name="Samuel L Jackson" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- Censored Samuel L Jackson -->
+        <findall><![CDATA[<announcervoice name="Censored Samuel L Jackson" voiceset="bamf_censored" arcadetext="bamf" />]]></findall>
+        <replace><![CDATA[<announcervoice name="Censored Samuel L Jackson" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- Na Khom Thai Announcer -->
+        <findall><![CDATA[<announcervoice name="Na Khom Thai Announcer" voiceset="na_khom" arcadetext="na_khom" />]]></findall>
+        <replace><![CDATA[<announcervoice name="Na Khom Thai Announcer" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- Ninja Announcer Pack -->
+        <findall><![CDATA[<announcervoice name="Ninja Announcer Pack" voiceset="ninja" arcadetext="ninja" />]]></findall>
+        <replace><![CDATA[<announcervoice name="Ninja Announcer Pack" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- URSA Corps Announcer Pack -->
+        <findall><![CDATA[<announcervoice name="URSA Corps Announcer Pack" voiceset="ursa" arcadetext="ursa" />]]></findall>
+        <replace><![CDATA[<announcervoice name="URSA Corps Announcer Pack" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- Merrick Announcer Pack -->
+        <findall><![CDATA[<announcervoice name="Merrick Announcer Pack" voiceset="merrick" arcadetext="merrick" />]]></findall>
+        <replace><![CDATA[<announcervoice name="Merrick Announcer Pack" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- 8-Bit Announcer Pack -->
+        <findall><![CDATA[<announcervoice name="8-Bit Announcer Pack" voiceset="8-bit" arcadetext="8-bit" />]]></findall>
+        <replace><![CDATA[<announcervoice name="8-Bit Announcer Pack" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- South East Asia Pack -->
+        <findall><![CDATA[<announcervoice name="South East Asia Pack" voiceset="sea" arcadetext="sea" />]]></findall>
+        <replace><![CDATA[<announcervoice name="South East Asia Pack" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- Surfer Announcer Pack -->
+        <findall><![CDATA[<announcervoice name="Surfer Announcer Pack" voiceset="surfer" arcadetext="surfer" />]]></findall>
+        <replace><![CDATA[<announcervoice name="Surfer Announcer Pack" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- Paragon Announcer Pack -->
+        <findall><![CDATA[<announcervoice name="Paragon Announcer Pack" voiceset="paragon" arcadetext="paragon" />]]></findall>
+        <replace><![CDATA[<announcervoice name="Paragon Announcer Pack" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- Dark Master Announcer Pack -->
+        <findall><![CDATA[<announcervoice name="Dark Master Announcer Pack" voiceset="dark_master" arcadetext="dark_master" />]]></findall>
+        <replace><![CDATA[<announcervoice name="Dark Master Announcer Pack" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- Siam Warrior Announcer Pack -->
+        <findall><![CDATA[<announcervoice name="Siam Warrior Announcer Pack" voiceset="siam" arcadetext="siam" />]]></findall>
+        <replace><![CDATA[<announcervoice name="Siam Warrior Announcer Pack" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- Ascension Announcer Pack -->
+        <findall><![CDATA[<announcervoice name="Ascension Announcer Pack" voiceset="ascension" arcadetext="ascension" />]]></findall>
+        <replace><![CDATA[<announcervoice name="Ascension Announcer Pack" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- SoccerAnnouncerPack -->
+        <findall><![CDATA[<announcervoice name="SoccerAnnouncerPack" voiceset="soccer" arcadetext="soccer" />]]></findall>
+        <replace><![CDATA[<announcervoice name="SoccerAnnouncerPack" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- SoccerModeAnnouncer -->
+        <findall><![CDATA[<announcervoice name="SoccerModeAnnouncer" voiceset="soccer_mode" arcadetext="soccer_mode" />]]></findall>
+        <replace><![CDATA[<announcervoice name="SoccerModeAnnouncer" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- Haunted House Announcer -->
+        <findall><![CDATA[<announcervoice name="Haunted House Announcer" voiceset="haunted_house" arcadetext="haunted_house" />]]></findall>
+        <replace><![CDATA[<announcervoice name="Haunted House Announcer" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- Miku Announcer -->
+        <findall><![CDATA[<announcervoice name="Miku Announcer" voiceset="miku" arcadetext="miku" />]]></findall>
+        <replace><![CDATA[<announcervoice name="Miku Announcer" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- MsPudding -->
+        <findall><![CDATA[<announcervoice name="MsPudding" voiceset="mspudding" arcadetext="mspudding" />]]></findall>
+        <replace><![CDATA[<announcervoice name="MsPudding" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- Punk Announcer -->
+        <findall><![CDATA[<announcervoice name="Punk Announcer" voiceset="graffiti" arcadetext="graffiti" />]]></findall>
+        <replace><![CDATA[<announcervoice name="Punk Announcer" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- ESan Announcer Pack -->
+        <findall><![CDATA[<announcervoice name="ESan Announcer Pack" voiceset="esan" arcadetext="esan" />]]></findall>
+        <replace><![CDATA[<announcervoice name="ESan Announcer Pack" voiceset="" arcadetext="arcade_text" />]]></replace>
+        <!-- 2018 World Cup Announcer -->
+        <findall><![CDATA[<announcervoice name="2018 World Cup Announcer" voiceset="2018worldcup" arcadetext="2018worldcup" />]]></findall>
+        <replace><![CDATA[<announcervoice name="2018 World Cup Announcer" voiceset="" arcadetext="arcade_text" />]]></replace>
+    </editfile>
 </modification>
