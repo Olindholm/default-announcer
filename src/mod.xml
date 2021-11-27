@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification
+    application="Heroes of Newerth"
+    appversion="*"
+    mmversion="1.0"
+    name="Default Announcer"
+    version="0.1.0"
+    description=""
+    author=""
+
+    weblink=""
+    updatecheckurl=""
+    updatedownloadurl=""
+>
+    <!-- Does nothing -->
+</modification>
