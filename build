@@ -1,4 +1,4 @@
-# /bin/bash
+#!/bin/bash
 
 # Make sure we're in workdir
 cd $(dirname "$BASH_SOURCE")
