@@ -4,9 +4,9 @@
     appversion="*"
     mmversion="1.0"
     name="Default Announcer"
-    version="0.1.0"
-    description=""
-    author=""
+    version="1.0.0"
+    description="Replaces all announcers with the default one."
+    author="Olindholm"
 
     weblink=""
     updatecheckurl=""
