@@ -8,9 +8,9 @@
     description="Replaces all announcers with the default one."
     author="Olindholm"
 
-    weblink=""
-    updatecheckurl=""
-    updatedownloadurl=""
+    weblink="https://github.com/Olindholm/default-announcer"
+    updatecheckurl="https://github.com/Olindholm/default-announcer/releases/latest/download/version"
+    updatedownloadurl="https://github.com/Olindholm/default-announcer/releases/latest/download/default-announcer.honmod"
 >
     <!-- Replace all announcers with default -->
 	<editfile name="base.upgrades">
